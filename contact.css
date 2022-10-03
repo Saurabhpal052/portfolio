@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.contactform{
+    padding: 0px 34px;
+    padding-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.contactform form{
+    margin-top: 36px;
+}
+
+.contactform h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactform div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform form div input{
+    width: 55vw;
+    border-radius: 5px;
+    font-size: 25px;    
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: steelblue;
+    margin: 0px 10px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 19px;
+    margin: 6px 3px;  
+}
+.buttons{
+    margin-top: 14px;
+}
+.buttons .btn-btn-primary{
+    width: 80px;
+}

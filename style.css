@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald:wght@300&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(223, 218, 211);
+    width: 263px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    font-size: 35px;
+}
+.sidebar nav{
+    padding: 22PX;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 23px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{ 
+    width: 90vw;
+    padding: 0px 13px;
+}
+
+.container{
+    display: flex;
+    background-color: #c0c0ca;
+}
+
+.infocon{
+    /* background-color: burlywood; */
+    height: 78vh;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.devpic img{
+    height: 78vh;
+    width: 206px;
+}
+.hello{
+    font-size: 42px;
+}
+
+.name{
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about{
+    font-size: 27px;
+}
+
+.moreabout{
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0em;
+}
+
+.buttons{
+    margin-top: 13px;
+}
+
+.buttons button{
+    padding: 6px;
+    border-radius: 17px;
+    background-color: #5656f4;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: #5656f4; 
+}
+button::shadow{
+
+}
+cards carditem{
+    background-color: rgb(56, 153, 233);
+    height: 12vh;
+    width: 20vh;
+}
+
+ 

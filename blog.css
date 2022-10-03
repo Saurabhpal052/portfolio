@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Oswald:wght@300&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+.blogitem{
+    margin: 14px;
+}
+.blogcon p{
+    font-family: 'Source code Pro', sans-serif;
+}
+.blogcon h1{
+    font-family: 'Source sans Pro', sans-serif;
+}
